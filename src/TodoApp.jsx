@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { tambahInvetory, hapusSemua } from "./invetorySlice";
+import { tambahInventory, hapusSemua } from "./inventorySlice";
 
 function TodoApp() {
   const [input, setInput] = useState("");
-  const tugas = useSelector((state) => state.todo.listInvetory);
+  const tugas = useSelector((state) => state.inventory.listInventory);
   const dispatch = useDispatch();
 
   const handleTambah = () => {
