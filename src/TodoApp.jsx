@@ -15,7 +15,7 @@ function TodoApp() {
 
   return (
     <div className="container">
-      <h2>TODO LIST</h2>
+      <h2>Inventory LIST</h2>
 
      <ul>
         {tugas.map((item, index) => (
